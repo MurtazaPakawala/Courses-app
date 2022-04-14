@@ -38,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     finish()
-                    startActivity(Intent(this,MainActivity::class.java))
+                    startActivity(Intent(this,AddCourseActivity::class.java))
                 } else {
                     // If sign in fails, display a message to the user.
                     Toast.makeText(this,"user does not exist", Toast.LENGTH_SHORT).show()
