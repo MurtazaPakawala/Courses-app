@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCourseActivity"
+    android:background="@color/yellow"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edtCourseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edt_background"
+                android:hint="Enter course name"
+                android:textSize="20sp"
+                android:padding="10dp"
+                ></EditText>
+            <EditText
+                android:id="@+id/edtCourseInstructor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edt_background"
+                android:hint="Enter course Instructor"
+                android:textSize="20sp"
+                android:padding="10dp"
+                ></EditText>
+            <EditText
+                android:id="@+id/edtCourseLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edt_background"
+                android:hint="Enter course Link"
+                android:textSize="20sp"
+                android:padding="10dp"
+                ></EditText>
+            <EditText
+                android:id="@+id/edtCourseDescription"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edt_background"
+                android:hint="Enter course Description"
+                android:textSize="20sp"
+                android:padding="10dp"
+                ></EditText>
+            <Button
+                android:id="@+id/btnAddCourse"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Add Course"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_background"
+                android:textColor="@color/white"
+                ></Button>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
